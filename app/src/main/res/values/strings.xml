@@ -1,0 +1,4 @@
+<resources>
+    <string name="app_name">Reel Counter</string>
+    <string name="accessibility_service_label">Reel Counter scrolling detector</string>
+</resources>

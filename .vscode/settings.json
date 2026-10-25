@@ -1,0 +1,8 @@
+{
+    "chat.tools.terminal.autoApprove": {
+        "/^if \\(Get-Command gradle -ErrorAction SilentlyContinue\\) \\{ gradle --no-daemon :app:assembleDebug \\} else \\{ Write-Output 'Gradle is not installed in this environment; Android Studio can sync this project\\.' \\}$/": {
+            "approve": true,
+            "matchCommandLine": true
+        }
+    }
+}
